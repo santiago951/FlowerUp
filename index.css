@@ -1,0 +1,16 @@
+.custom-purple {
+    background-color: purple !important;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.btn {
+    color: white !important;
+}
+
+.btn-outline-success {
+    color: white !important;
+    border-color: white !important;
+}
