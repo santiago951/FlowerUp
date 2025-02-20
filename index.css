@@ -1,5 +1,5 @@
 .custom-purple {
-    background-color: purple !important;
+    background-color: #6a0dad !important;
 }
 
 .navbar-brand, .nav-link {
@@ -17,3 +17,19 @@
 .card-body{
     height:217px;
 }
+/* Modifies the size of the cards and imagies withing the home tab */
+.home-card {
+    max-width: 550px;
+    max-height: 900px; 
+  }
+  
+  .home-card img {
+    height: 600px;
+    object-fit: cover; 
+  }
+
+  /* Footer color */
+  .footer-purple {
+    background-color: #6a0dad;
+  }
+  
