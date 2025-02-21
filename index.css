@@ -32,4 +32,12 @@
   .footer-purple {
     background-color: #6a0dad;
   }
+
+  /* search botton color and style */
+  .custom-purple-btn {
+    background-color: #6a0dad;
+    color: white;
+    border-color: white !important;
+  }
+  
   
