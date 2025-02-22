@@ -40,4 +40,11 @@
     border-color: white !important;
   }
   
+  /* Card size */
+  .card-img-top {
+    width: 100% !important;
+    height: 550px !important;
+    object-fit: cover;
+    display: block;
+  }
   
