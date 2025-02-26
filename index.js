@@ -138,7 +138,7 @@ document.getElementById("switch-to-signup").addEventListener("click", function (
     }
   });
   
-  // AFTER: Sign Out Functionality
+  // Sign Out Functionality
   document.getElementById('signout-button').addEventListener('click', function() {
     // Clear credentials from localStorage
     localStorage.removeItem('userName');
