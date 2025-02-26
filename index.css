@@ -1,3 +1,50 @@
-#mainTitle {
-    color: purple;
+.custom-purple {
+    background-color: #6a0dad !important;
 }
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.btn {
+    color: white !important;
+}
+
+.btn-outline-success {
+    color: white !important;
+    border-color: white !important;
+}
+.card-body{
+    height:217px;
+}
+/* Modifies the size of the cards and imagies withing the home tab */
+.home-card {
+    max-width: 550px;
+    max-height: 900px; 
+  }
+  
+  .home-card img {
+    height: 600px;
+    object-fit: cover; 
+  }
+
+  /* Footer color */
+  .footer-purple {
+    background-color: #6a0dad;
+  }
+
+  /* search botton color and style */
+  .custom-purple-btn {
+    background-color: #6a0dad;
+    color: white;
+    border-color: white !important;
+  }
+  
+  /* Card size */
+  .card-img-top {
+    width: 100% !important;
+    height: 550px !important;
+    object-fit: cover;
+    display: block;
+  }
+  
