@@ -54,4 +54,3 @@ document.querySelectorAll('#myTab button').forEach(tabBtn => {
         }
     });
 });
-  
