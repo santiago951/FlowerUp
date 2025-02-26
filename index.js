@@ -64,7 +64,6 @@ document.getElementById("switch-to-signup").addEventListener("click", function (
     document.getElementById("authModalLabel").textContent = "Sign Up";
 });
 
-// Switch back to Sign In form
 document.getElementById("switch-to-signin").addEventListener("click", function () {
     document.getElementById("signup-form").style.display = "none";
     document.getElementById("signin-form").style.display = "block";
@@ -73,51 +72,36 @@ document.getElementById("switch-to-signin").addEventListener("click", function (
     document.getElementById("authModalLabel").textContent = "Sign In";
 });
 
-// Sign Up Simulation
 document.getElementById('signup-form').addEventListener('submit', function (e) {
     e.preventDefault();
-
     let name = document.getElementById('signup-name').value;
     let email = document.getElementById('signup-email').value;
     let password = document.getElementById('signup-password').value;
     let confirmPassword = document.getElementById('signup-confirm-password').value;
-
     if (password !== confirmPassword) {
         alert("Passwords do not match.");
         return;
     }
-
-    // Store credentials in localStorage
     localStorage.setItem('userName', name);
     localStorage.setItem('userEmail', email);
     localStorage.setItem('userPassword', password);
-
     alert('Account created successfully!');
-
-    // Switch back to Sign In form
     document.getElementById("switch-to-signin").click();
 });
 
-// AFTER: Sign In Simulation
 document.getElementById('signin-form').addEventListener('submit', function (e) {
     e.preventDefault();
-
     let email = document.getElementById('signin-email').value;
     let password = document.getElementById('signin-password').value;
-
-    // Retrieve credentials from localStorage
     let storedEmail = localStorage.getItem('userEmail');
     let storedPassword = localStorage.getItem('userPassword');
     let storedName = localStorage.getItem('userName');
 
     if (email === storedEmail && password === storedPassword) {
         alert("Sign in successful!");
-        // Update navbar: hide auth button, show user info
         document.getElementById('authButton').classList.add('d-none');
         document.getElementById('user-name').textContent = "Welcome, " + storedName;
         document.getElementById('user-info').classList.remove('d-none');
-
-        // Hide the modal
         let modalElement = document.getElementById('authModal');
         let modalInstance = bootstrap.Modal.getInstance(modalElement);
         if (modalInstance) {
@@ -128,7 +112,6 @@ document.getElementById('signin-form').addEventListener('submit', function (e) {
     }
 });
 
-// AFTER: Check for an already "logged in" user on page load
 window.addEventListener('DOMContentLoaded', function () {
     let storedName = localStorage.getItem('userName');
     if (storedName) {
@@ -138,14 +121,10 @@ window.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-// Sign Out Functionality
 document.getElementById('signout-button').addEventListener('click', function () {
-    // Clear credentials from localStorage
     localStorage.removeItem('userName');
     localStorage.removeItem('userEmail');
     localStorage.removeItem('userPassword');
-
-    // Update the navbar: hide user info, show auth button
     document.getElementById('user-info').classList.add('d-none');
     document.getElementById('authButton').classList.remove('d-none');
 
