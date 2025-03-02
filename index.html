@@ -48,11 +48,9 @@
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
-        <!-- Auth button -->
         <button class="btn custom-purple-btn ms-5" data-bs-toggle="modal" data-bs-target="#authModal" id="authButton">
           Sign In / Sign Up
         </button>
-        <!-- User Info -->
         <div id="user-info" class="ms-5 d-none">
           <span id="user-name" class="text-white me-2"></span>
           <button class="btn btn-outline-light" id="signout-button">Sign Out</button>
@@ -60,19 +58,14 @@
       </div>
     </div>
   </nav>
-
-  <!-- Add Authentication Modal before closing </body> -->
   <div class="modal fade" id="authModal" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <!-- Modal Header -->
         <div class="modal-header">
           <h5 class="modal-title" id="authModalLabel">Sign In</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <!-- Modal Body with Sign In and Sign Up Forms -->
         <div class="modal-body">
-          <!-- Sign In Form -->
           <form id="signin-form">
             <div class="mb-3">
               <label for="signin-email" class="form-label">Email address</label>
@@ -85,10 +78,8 @@
             <button type="submit" class="btn btn-primary w-100">Sign In</button>
           </form>
           <hr>
-          <!-- Switch to Sign Up -->
           <p class="text-center" id="switchPrompt">Don't have an account?</p>
           <button type="button" class="btn btn-secondary w-100" id="switch-to-signup">Create an account</button>
-          <!-- Sign Up Form (hidden by default) -->
           <form id="signup-form" class="mt-3" style="display: none;">
             <div class="mb-3">
               <label for="signup-name" class="form-label">Full Name</label>
