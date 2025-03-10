@@ -1,0 +1,15 @@
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Review.exe
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Review.deps.json
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Review.runtimeconfig.json
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Review.dll
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\bin\Debug\net8.0\Review.pdb
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Review.GeneratedMSBuildEditorConfig.editorconfig
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Review.AssemblyInfoInputs.cache
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Review.AssemblyInfo.cs
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Review.csproj.CoreCompileInputs.cache
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Review.sourcelink.json
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Review.dll
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\refint\Review.dll
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Review.pdb
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\Review.genruntimeconfig.cache
+C:\FlowerUp\ConsoleApp1\ConsoleApp1\obj\Debug\net8.0\ref\Review.dll
